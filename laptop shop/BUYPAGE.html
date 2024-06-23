@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h2>Laptop Shop</h2>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="home" href="laptops.html">Laptops</a>
+            <a href="reviews.html">Reviews</a>
+            <div class="More">
+                <a href="#sidenav">
+                    <p>Brands</p>
+                </a>
+            </div>
+        </nav>
+        
+
+
+
+    </header>
+    <nav id="sidenav" class="sidenav">
+        <a href="Lenovo.html">Legion</a>
+        <a href="rog.html">Rog</a>
+        <a href="msi.html">Msi</a>
+    </nav>
+    <div class="top">
+        <p class="section-title">HOT ARRIVALS</p>
+    </div>
+    <div class="banner">
+
+    </div>
+
+    <div id="order">
+        <h2 class="title">Order</h2>
+        <form
+        action="https://formspree.io/f/mjvnzynb" 
+        method="POST"
+        >
+            <div class="group">
+                <label>Full Name</label>
+                <input type="text" name="fullname" id="fullname" placeholder="enter ur name">
+            </div>
+
+            <div class="group">
+                <label>Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+            <div class="group">
+                <label>laptops</label>
+                <select name="product" id="product">
+                    <option value="">Select a laptop</option>
+                    <option value="Legion9pro(4090)">Legion 9 pro(rtx 4090)</option>
+                    <option value="Legion7ipro">Legion 7i pro</option>
+                    <option value="Legion5ipro">Legion 5i pro</option>
+                    <option value="Legion9pro(4080)">Legion 9 pro(rtx 4080)</option>
+                    <option value="Rogstrixg18">Rog strix g18</option>
+                    <option value="Rogstrixg17">Rog strix g17</option>
+                    <option value="Rogzephyrusg16">Rog Zephyrus g16</option>
+                    <option value="Rogzephyrusg14">Rog Zephyrus g14</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label>Request</label>
+            <input type="text" name="Request" id="Request" placeholder="want ram/ssd upgrades for laptop?">                
+            </div>
+            <div class="group">
+                <label>Address</label>
+                <textarea name="address" id="address"></textarea>
+            </div>
+            <div class="group">
+                <button type="submit">BUY</button>
+
+
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <h1>Contact us!</h1>
+    <div class="social-medias">
+        <a href="https://www.tiktok.com/@cambodian_kid2" class="contacts">My tiktok account</a>
+        <a href="https://www.facebook.com/profile.php?id=61551902822308" class="contacts">My facebook</a>
+        <p class="contacts">Phinravudhrattanak@gmail.com</p>
+
+    </div>
+        <h2>ALL RIGHTS RESERVED 2023</h2>
+    </footer>
+    
+</body>
+</html>
